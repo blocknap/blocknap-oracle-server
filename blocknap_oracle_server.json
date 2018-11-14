@@ -1,0 +1,20 @@
+	{
+	  "account": "ADDRESS_WALLET",
+	  "port": 8888,
+	  "private": "PRIVATE_KEY_WALLET",
+	  "oracleFile": [
+		{
+		  "name": "httpWeather",
+		  "file": "httpWeather.js",
+		  "cron": "*/50 * * * * *",
+		  "api": "https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=key_weather",
+		  "temp":200
+		}
+	  ],
+	  "provider_config": "PRIVATE_KEY_INFURA",
+	  "provider":"infura_ropsten",
+	  "gas": 21000,
+	  "gasPrice": 1000000000,
+	  "path_oracles":"../../oracle",
+	  "db": "postgresql://root@localhost:26257/blocknap?sslmode=disable"
+	}
