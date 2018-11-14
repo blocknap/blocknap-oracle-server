@@ -1,0 +1,22 @@
+{
+  "name": "blocknap_oracle_server",
+  "version": "0.1.0",
+  "description": "Server to manage oracles in ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Martin Moreno",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "2.6.1",
+    "command-line-args": "5.0.2",
+    "commander": "2.18.0",
+    "cron": "1.4.1",
+    "ethers": "3.0.27",
+    "express": "4.16.3",
+    "pg": "7.4.3",
+    "request": "2.88.0",
+    "web3": "1.0.0-beta.35"
+  }
+}
