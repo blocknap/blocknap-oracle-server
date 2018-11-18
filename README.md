@@ -43,6 +43,32 @@
 
 7.Execute init.sh
 
+### Prerequisites
+
+ 1. Install CockroachDB v2.0.6 
+ 
+ https://www.cockroachlabs.com/docs/releases/v2.0.6.html
+
+ 2. Create data base *blocknap*
+   
+ 3. Execute script create_table_oracle_address.sql
+
+
+
+## Call Oracle Server
+
+
+- URL http://<ip_server>:<port>/oracle/v1/add/<name_oracle>/<address>
+- 
+- Header: Content-Type:application/json
+
+- Body (ABI of Smart Contract):
+
+```json
+{
+   "abi":"......"
+}
+```
 
 ## Add new oracle
 
