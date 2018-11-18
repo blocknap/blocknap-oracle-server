@@ -59,7 +59,7 @@
 
 
 - URL http://<ip_server>:<port>/oracle/v1/add/<name_oracle>/<address>
-- 
+  
 - Header: Content-Type:application/json
 
 - Body (ABI of Smart Contract):
