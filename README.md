@@ -41,7 +41,7 @@
 ```
 
 
-7.Execute init.sh
+7.Execute index.sh
 
 ### Prerequisites
 
